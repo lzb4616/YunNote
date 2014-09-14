@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}"
+    android:background="@drawable/rootblock_default_bg_night">
+
+    <EditText
+        android:id="@+id/user_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="标题"
+        android:textColor="@color/orangered"/>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:padding="3dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/note_save_imBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gallery_menu_save"/>
+        <ImageButton
+            android:id="@+id/note_pic_imBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gallery_menu_picture"/>
+        <ImageButton
+            android:id="@+id/note_voice_imBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gallery_menu_sound_import"/>
+        <ImageButton
+            android:id="@+id/note_share_imBtn"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gallery_menu_share"/>
+
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/user_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linear_layout"
+        android:layout_below="@id/user_title"
+        android:gravity="left|top"
+        android:hint="请输入内容"
+        android:textColor="@color/ivory"/>
+
+
+</RelativeLayout>

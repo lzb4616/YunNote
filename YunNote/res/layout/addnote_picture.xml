@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/addnote_picture"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/choose_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择"
+        android:textSize="20.0sp" />
+
+    <ImageButton
+        android:id="@+id/choose_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:background="@drawable/addnote_btu_takephos_press"
+        android:contentDescription="@null" />
+
+    <ImageButton
+        android:id="@+id/choose_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:background="@drawable/addnote_btu_pics_press"
+        android:contentDescription="@null" />
+
+</LinearLayout>

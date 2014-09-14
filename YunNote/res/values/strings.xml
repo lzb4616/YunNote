@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Myapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="download_confirm_msg">本编辑页面首次使用语音功能需要安装讯飞语音组件，是否现在安装？注：组件无需下载，只需本地安装一次，且安全免费！</string>
+    <string name="dialog_confirm_button">确定</string>
+    <string name="dialog_cancel_button">取消</string>
+    <string name="editext_title">请输入标题</string>
+    <string name="editext_user_dital">请输入内容</string>
+
+    <style name="draw_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- activity 不变暗 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <string name="not_yet_authorized">尚未授权</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="renren">人人网</string>
+    <string name="qzone">QQ空间</string>
+    <string name="share_content">带来幸福好心情~</string>
+    <string name="share">分享</string>
+    <string name="get_user_info_sw">获取新浪微博授权用户资料</string>
+    <string name="get_user_info_tc">获取腾讯微博授权用户资料</string>
+    <string name="get_user_info_rr">获取人人网授权用户资料</string>
+    <string name="get_user_info_qz">获取QQ空间授权用户资料</string>
+    <string name="get_my_info">获取授权用户资料</string>
+    <string name="get_other_info">获取其他用户资料</string>
+    <string name="title_activity_list_note">ListNoteActivity</string>
+    <string name="login_activity">LoginActivity</string>
+
+</resources>
